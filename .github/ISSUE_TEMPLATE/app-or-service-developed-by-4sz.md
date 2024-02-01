@@ -25,21 +25,31 @@ URL to the code if available
 - [ ] end of life
 
 ## Technical TODO's
-- [ ] no open bug-tickets
-- [ ] no sonartype check issues
-- [ ] no security issues with dependencies (check periodically)
-- [ ] sufficient test coverage
+- [ ] open bug-tickets
+  - [ ] will not fix
+- [ ] sonartype check issues
+  - [ ] will not fix
+- [ ] security issues with dependencies (check periodically)
+  - [ ] will not fix
+- [ ] insufficient test coverage
+  - [ ] will not fix
 
 
-## Documentation
-- [ ] code is available online (URL)
-- [ ] code is sufficiently annotated
-- [ ] Read-Me available
-- [ ] wiki available
-- [ ] tutorials/ installation guide available
-- [ ] API documentation (e.g. Swagger UI) available
+## Documentation TODO's
+- [ ] code is not available online (URL)
+  - [ ] will not fix
+- [ ] code is not sufficiently annotated
+  - [ ] will not fix
+- [ ] no Read-Me
+  - [ ] will not fix
+- [ ] no Wiki
+  - [ ] will not fix
+- [ ] no tutorials/ installation guide
+  - [ ] will not fix
+- [ ] no API documentation (e.g. Swagger UI) 
+  - [ ] will not fix
 
-## Findability & Accessibility
+## Findability & Accessibility TODO's
 - [ ] hosted by service: < Hosting Service >
 - [ ] on foodrisklabs website < URL > 
 - [ ] API available here: < endpoint > 

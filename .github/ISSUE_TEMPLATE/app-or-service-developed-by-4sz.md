@@ -26,14 +26,14 @@ URL to the code if available
 
 ## Technical TODO's
 - [ ] no open bug-tickets
-- [ ] sonartype check passed
+- [ ] no sonartype check issues
 - [ ] no security issues with dependencies (check periodically)
+- [ ] sufficient test coverage
 
 
 ## Documentation
 - [ ] code is available online (URL)
 - [ ] code is sufficiently annotated
-- 
 - [ ] Read-Me available
 - [ ] wiki available
 - [ ] tutorials/ installation guide available

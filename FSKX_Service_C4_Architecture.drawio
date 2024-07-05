@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T12:01:19.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kz13jUV5HDPklQoT89xA" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-05T12:05:05.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="x_tH8fZGXyPMoG4GEqhd" version="24.6.4" type="github" pages="5">
   <diagram name="System Context" id="a2gW2ukG-RVeUHNg27eI">
     <mxGraphModel dx="1551" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -472,9 +472,6 @@
         <mxCell id="ZOyIZC6BfXfHpiasVSrb-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ZOyIZC6BfXfHpiasVSrb-6" target="jI-JZxt741czknKK0aR8-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZOyIZC6BfXfHpiasVSrb-13" value="System Context:&#xa;[User] -&gt; [Web Application]&#xa;&#xa;&#xa;Container diagram:&#xa;[User] -&gt; [Host Application]&#xa;[Host Application] -&gt; [Micro-Frontend 1]&#xa;[Host Application] -&gt; [Micro-Frontend 2]&#xa;[Host Application] -&gt; [Micro-Frontend n]&#xa;[Micro-Frontend 1] -&gt; [Event Hub]&#xa;[Micro-Frontend 2] -&gt; [Event Hub]&#xa;[Micro-Frontend n] -&gt; [Event Hub]&#xa;&#xa;&#xa;Component diagram (Host Application):&#xa;[Card Component] -&gt; [Content Area]&#xa;[Workflow Indicator] -&gt; [Content Area]&#xa;[Continue Button] -&gt; [Content Area]&#xa;[Content Area] -&gt; [Micro-Frontend Loader]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend 1]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend 2]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend n]&#xa;&#xa;&#xa;User: Person&#xa;Web Application: Software System&#xa;Host Application: Container&#xa;    Card Component: Component&#xa;    Content Area: Component&#xa;    Workflow Indicator: Component&#xa;    Continue Button: Component&#xa;    Micro-Frontend Loader: Component&#xa;Micro-Frontend 1: Container&#xa;Micro-Frontend 2: Container&#xa;Micro-Frontend n: Container&#xa;Event Hub: Container&#xa;&#xa;&#xa;Relationships:&#xa;User -&gt; Host Application &quot;Interacts with&quot;&#xa;Host Application -&gt; Micro-Frontend 1 &quot;Loads and displays&quot;&#xa;Host Application -&gt; Micro-Frontend 2 &quot;Loads and displays&quot;&#xa;Host Application -&gt; Micro-Frontend n &quot;Loads and displays&quot;&#xa;Micro-Frontend 1 -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Micro-Frontend 2 -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Micro-Frontend n -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Card Component -&gt; Content Area &quot;Triggers loading of micro-frontend&quot;&#xa;Workflow Indicator -&gt; Content Area &quot;Shows current service&quot;&#xa;Continue Button -&gt; Content Area &quot;Triggers loading of next service&quot;&#xa;Content Area -&gt; Micro-Frontend Loader &quot;Requests micro-frontend&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend 1 &quot;Loads&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend 2 &quot;Loads&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend n &quot;Loads&quot;" style="text;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="1480" width="400" height="790" as="geometry" />
-        </mxCell>
         <mxCell id="-YBX8G-CuSXqETKtW7zN-1" value="&lt;div&gt;Metadata Extraction&lt;/div&gt;&lt;div&gt;[Container]&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;dashed=1;dashPattern=8 8;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-800" y="2360" width="970" height="895" as="geometry" />
         </mxCell>
@@ -496,7 +493,7 @@
             <mxPoint x="150" y="725" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-YBX8G-CuSXqETKtW7zN-89" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255);&quot;&gt;LLM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;external service: GPT&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;area where the micro-frontend is loaded into&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#B3B3B3;" vertex="1" parent="-YBX8G-CuSXqETKtW7zN-1">
+        <mxCell id="-YBX8G-CuSXqETKtW7zN-89" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255);&quot;&gt;LLM&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;external service: GPT&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;map text to metadata schema&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#B3B3B3;" vertex="1" parent="-YBX8G-CuSXqETKtW7zN-1">
           <mxGeometry x="750" y="320" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-YBX8G-CuSXqETKtW7zN-91" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255);&quot;&gt;Download Schema JSON&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;[Component: JavaScript and Next.js]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;Download Function for user&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="-YBX8G-CuSXqETKtW7zN-1">
@@ -571,14 +568,33 @@
         <mxCell id="-YBX8G-CuSXqETKtW7zN-108" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255);&quot;&gt;Create FSKX Button&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;[Component: JavaScript and Next.js}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;Download Function for user&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="-YBX8G-CuSXqETKtW7zN-58">
           <mxGeometry x="375" y="570" width="220" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="-YBX8G-CuSXqETKtW7zN-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-YBX8G-CuSXqETKtW7zN-122" target="-YBX8G-CuSXqETKtW7zN-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBX8G-CuSXqETKtW7zN-130" value="upload FSKX file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YBX8G-CuSXqETKtW7zN-129">
+          <mxGeometry x="0.0483" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-YBX8G-CuSXqETKtW7zN-122" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255);&quot;&gt;FSKX Service API&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;[Component: Python and Django/FLASK]&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;Backend for creating FSKX file&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
-          <mxGeometry x="3450" y="2650" width="220" height="110" as="geometry" />
+          <mxGeometry x="3470" y="2650" width="220" height="110" as="geometry" />
         </mxCell>
         <mxCell id="-YBX8G-CuSXqETKtW7zN-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-YBX8G-CuSXqETKtW7zN-107" target="-YBX8G-CuSXqETKtW7zN-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-YBX8G-CuSXqETKtW7zN-125" value="sends API request with file URLs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YBX8G-CuSXqETKtW7zN-123">
           <mxGeometry x="-0.3419" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YBX8G-CuSXqETKtW7zN-126" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;AWS S3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; color: rgb(255, 255, 255); font-size: 10px;&quot;&gt;external service:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;stores files temporarily&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="2440" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBX8G-CuSXqETKtW7zN-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-YBX8G-CuSXqETKtW7zN-107" target="-YBX8G-CuSXqETKtW7zN-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YBX8G-CuSXqETKtW7zN-128" value="uploads files to get URL&#39;s" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YBX8G-CuSXqETKtW7zN-127">
+          <mxGeometry x="0.0879" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -742,6 +758,17 @@
         </mxCell>
         <mxCell id="u-ix4j1IIiGKA2c9Hkjm-29" value="Controls access" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="u-ix4j1IIiGKA2c9Hkjm-28">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TPqDyrQkcxEIOTHt723R" name="text">
+    <mxGraphModel dx="1562" dy="-280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yKfxWkokEbJ0gcl2AnzI-1" value="System Context:&#xa;[User] -&gt; [Web Application]&#xa;&#xa;&#xa;Container diagram:&#xa;[User] -&gt; [Host Application]&#xa;[Host Application] -&gt; [Micro-Frontend 1]&#xa;[Host Application] -&gt; [Micro-Frontend 2]&#xa;[Host Application] -&gt; [Micro-Frontend n]&#xa;[Micro-Frontend 1] -&gt; [Event Hub]&#xa;[Micro-Frontend 2] -&gt; [Event Hub]&#xa;[Micro-Frontend n] -&gt; [Event Hub]&#xa;&#xa;&#xa;Component diagram (Host Application):&#xa;[Card Component] -&gt; [Content Area]&#xa;[Workflow Indicator] -&gt; [Content Area]&#xa;[Continue Button] -&gt; [Content Area]&#xa;[Content Area] -&gt; [Micro-Frontend Loader]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend 1]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend 2]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend n]&#xa;&#xa;&#xa;User: Person&#xa;Web Application: Software System&#xa;Host Application: Container&#xa;    Card Component: Component&#xa;    Content Area: Component&#xa;    Workflow Indicator: Component&#xa;    Continue Button: Component&#xa;    Micro-Frontend Loader: Component&#xa;Micro-Frontend 1: Container&#xa;Micro-Frontend 2: Container&#xa;Micro-Frontend n: Container&#xa;Event Hub: Container&#xa;&#xa;&#xa;Relationships:&#xa;User -&gt; Host Application &quot;Interacts with&quot;&#xa;Host Application -&gt; Micro-Frontend 1 &quot;Loads and displays&quot;&#xa;Host Application -&gt; Micro-Frontend 2 &quot;Loads and displays&quot;&#xa;Host Application -&gt; Micro-Frontend n &quot;Loads and displays&quot;&#xa;Micro-Frontend 1 -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Micro-Frontend 2 -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Micro-Frontend n -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Card Component -&gt; Content Area &quot;Triggers loading of micro-frontend&quot;&#xa;Workflow Indicator -&gt; Content Area &quot;Shows current service&quot;&#xa;Continue Button -&gt; Content Area &quot;Triggers loading of next service&quot;&#xa;Content Area -&gt; Micro-Frontend Loader &quot;Requests micro-frontend&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend 1 &quot;Loads&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend 2 &quot;Loads&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend n &quot;Loads&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1420" width="400" height="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

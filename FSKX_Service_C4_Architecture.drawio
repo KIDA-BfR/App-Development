@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17" pages="5">
   <diagram id="TPqDyrQkcxEIOTHt723R" name="Architecture">
-    <mxGraphModel dx="2786" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2185" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,9 +73,6 @@
         <mxCell id="OQSDLH37VhlCTPeDwJZc-42" value="S3" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-79">
           <mxGeometry x="530" y="45" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-63" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-79">
-          <mxGeometry x="780" y="45" width="110" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-85" value="Secrets Manager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-79">
           <mxGeometry x="290" y="60" width="120" height="60" as="geometry" />
         </mxCell>
@@ -84,9 +81,6 @@
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-64" value="Container Registry&lt;div&gt;(ECR)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-79">
           <mxGeometry x="1010" y="45" width="110" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-127" value="KANIKO&lt;div&gt;(Container Creation)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-79">
-          <mxGeometry x="1260" y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-117" value="Kubernetes Layer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-580" y="240" width="1980" height="1190" as="geometry" />
@@ -127,7 +121,7 @@
         <mxCell id="OQSDLH37VhlCTPeDwJZc-113" value="query metadata for specific criteria" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-111">
           <mxGeometry y="60" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-49" value="5. FSKX File Generation Microservice&amp;nbsp;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-49" value="5. FSKX File Generation MS&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
           <mxGeometry x="1080" y="660" width="250" height="180" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-50" value="start FSKX generation&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-49">
@@ -145,7 +139,7 @@
         <mxCell id="OQSDLH37VhlCTPeDwJZc-54" value="retrieve FSKX from S3 (download)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-49">
           <mxGeometry y="150" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-16" value="4. Metadata Management Microservices&amp;nbsp;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-16" value="4. Metadata Management MS&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
           <mxGeometry x="810" y="660" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-17" value="input model metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-16">
@@ -277,6 +271,12 @@
         <mxCell id="OQSDLH37VhlCTPeDwJZc-147" value="start building image - receive report (success or failure)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
           <mxGeometry y="180" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-63" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
+          <mxGeometry x="1120" y="840" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-127" value="KANIKO&lt;div&gt;(Container Creation)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
+          <mxGeometry x="1270" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-119" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;Keycloak&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="450" y="130" width="190" height="85" as="geometry" />
         </mxCell>
@@ -288,6 +288,9 @@
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-123" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;Configuration Services&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-122">
           <mxGeometry x="250" y="130" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-150" value="TODO: Rename to Seriv" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="935" y="428" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

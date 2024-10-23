@@ -1,6 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T12:16:06.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Gu5YHxT7SoMIU-1bmT0H" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.7.17" pages="5">
+  <diagram id="TPqDyrQkcxEIOTHt723R" name="Architecture">
+    <mxGraphModel dx="2574" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N9KOD3QQsep1_frlSnQ5-1" value="&lt;font color=&quot;#ffffff&quot;&gt;FSKX Model Creation Service&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="590" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N9KOD3QQsep1_frlSnQ5-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="802.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9KOD3QQsep1_frlSnQ5-2" value="&lt;font color=&quot;#ffffff&quot;&gt;ECR&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;Container registry&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="760" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N9KOD3QQsep1_frlSnQ5-3" target="OQSDLH37VhlCTPeDwJZc-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9KOD3QQsep1_frlSnQ5-3" value="&lt;font color=&quot;#ffffff&quot;&gt;FSKX Model Creation Service&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;[Software System]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="870" y="570" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N9KOD3QQsep1_frlSnQ5-4" target="OQSDLH37VhlCTPeDwJZc-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9KOD3QQsep1_frlSnQ5-4" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;1: File Management Microservice&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;API&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="600" y="570" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9KOD3QQsep1_frlSnQ5-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9KOD3QQsep1_frlSnQ5-8" value="&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;API Gateway&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N9KOD3QQsep1_frlSnQ5-9" target="N9KOD3QQsep1_frlSnQ5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9KOD3QQsep1_frlSnQ5-9" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;Authentication&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-9" value="Kubernetes Layer" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="770" width="1080" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-10" value="&lt;font color=&quot;#ffffff&quot;&gt;FSKX Execution Service&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;API&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-9">
+          <mxGeometry x="20" y="57.5" width="190" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-49" value="5. FSKX File Generation Microservice&amp;nbsp;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-9">
+          <mxGeometry x="380" y="50" width="250" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-50" value="start&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-49">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-51" value="query model metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-49">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-52" value="retrieve model parameter metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-49">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-11" value="&lt;div&gt;FSKX Execution Service&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="590" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-12" value="run simulation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-11">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-13" value="get simulation status" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-11">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-14" value="get simulation results" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-11">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-16" value="4. Metadata Management Microservices&amp;nbsp;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="580" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-17" value="input model metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-16">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-18" value="query model metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-16">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-45" value="retrieve model parameter metadata" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-16">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-46" value="FSKX compliance check" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-16">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-20" value="&lt;div&gt;1: File Management Microservice&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="570" width="220" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-21" value="upload user files" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-22" value="manage user sessions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="60" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-48" value="load user files" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-23" value="store / retreive data from S3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="120" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-24" value="create new files" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="150" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-25" value="enforce file size limits" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="180" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-44" value="download FSKX file" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-20">
+          <mxGeometry y="210" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-27" value="&lt;div&gt;2: Security Microservice&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="860" width="200" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-28" value="log in" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-27">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-29" value="encryption of session folders" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-27">
+          <mxGeometry y="60" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-30" value="scan files for viruses" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-27">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-31" value="metadata validation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-27">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-47" value="parameter metadata validation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-27">
+          <mxGeometry y="150" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-32" value="code scanning of generated FSKX" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-27">
+          <mxGeometry y="180" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-42" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="810" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="System Context" id="a2gW2ukG-RVeUHNg27eI">
-    <mxGraphModel dx="1562" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +252,7 @@
         <mxCell id="CKV4E5HvagZBUr1mOYvm-2" value="supports" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" parent="CKV4E5HvagZBUr1mOYvm-1" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zhMuo7_94SRgsVvPH46Y-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;System diagram for FSKX Model Creation Service&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="zhMuo7_94SRgsVvPH46Y-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;System diagram for FSKX Model Creation Service&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="25" y="700" width="450" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -746,17 +888,6 @@
         </mxCell>
         <mxCell id="yTrPgY9m0TEoux-Mcy37-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Deployment diagram for FSKX Model Creation Service&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="55" y="980" width="450" height="60" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="TPqDyrQkcxEIOTHt723R" name="text">
-    <mxGraphModel dx="1562" dy="-280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="yKfxWkokEbJ0gcl2AnzI-1" value="System Context:&#xa;[User] -&gt; [Web Application]&#xa;&#xa;&#xa;Container diagram:&#xa;[User] -&gt; [Host Application]&#xa;[Host Application] -&gt; [Micro-Frontend 1]&#xa;[Host Application] -&gt; [Micro-Frontend 2]&#xa;[Host Application] -&gt; [Micro-Frontend n]&#xa;[Micro-Frontend 1] -&gt; [Event Hub]&#xa;[Micro-Frontend 2] -&gt; [Event Hub]&#xa;[Micro-Frontend n] -&gt; [Event Hub]&#xa;&#xa;&#xa;Component diagram (Host Application):&#xa;[Card Component] -&gt; [Content Area]&#xa;[Workflow Indicator] -&gt; [Content Area]&#xa;[Continue Button] -&gt; [Content Area]&#xa;[Content Area] -&gt; [Micro-Frontend Loader]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend 1]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend 2]&#xa;[Micro-Frontend Loader] -&gt; [Micro-Frontend n]&#xa;&#xa;&#xa;User: Person&#xa;Web Application: Software System&#xa;Host Application: Container&#xa;    Card Component: Component&#xa;    Content Area: Component&#xa;    Workflow Indicator: Component&#xa;    Continue Button: Component&#xa;    Micro-Frontend Loader: Component&#xa;Micro-Frontend 1: Container&#xa;Micro-Frontend 2: Container&#xa;Micro-Frontend n: Container&#xa;Event Hub: Container&#xa;&#xa;&#xa;Relationships:&#xa;User -&gt; Host Application &quot;Interacts with&quot;&#xa;Host Application -&gt; Micro-Frontend 1 &quot;Loads and displays&quot;&#xa;Host Application -&gt; Micro-Frontend 2 &quot;Loads and displays&quot;&#xa;Host Application -&gt; Micro-Frontend n &quot;Loads and displays&quot;&#xa;Micro-Frontend 1 -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Micro-Frontend 2 -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Micro-Frontend n -&gt; Event Hub &quot;Publishes and subscribes to events&quot;&#xa;Card Component -&gt; Content Area &quot;Triggers loading of micro-frontend&quot;&#xa;Workflow Indicator -&gt; Content Area &quot;Shows current service&quot;&#xa;Continue Button -&gt; Content Area &quot;Triggers loading of next service&quot;&#xa;Content Area -&gt; Micro-Frontend Loader &quot;Requests micro-frontend&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend 1 &quot;Loads&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend 2 &quot;Loads&quot;&#xa;Micro-Frontend Loader -&gt; Micro-Frontend n &quot;Loads&quot;" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1420" width="400" height="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

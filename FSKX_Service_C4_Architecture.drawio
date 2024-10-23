@@ -11,28 +11,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-9" value="Long Running Microservices (Frontend)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="570" width="1310" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-87" value="11. Model Execution Microservice&lt;div&gt;Web-App&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-9">
-          <mxGeometry x="1010" y="40" width="250" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-88" value="log in" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-104" value="select FSKX model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-96" value="enter user defined parameters" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-94" value="start simulation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
-          <mxGeometry y="120" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-93" value="retrieve results" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
-          <mxGeometry y="150" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-103" value="download FSKX model (new parameters)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
-          <mxGeometry y="180" width="250" height="30" as="geometry" />
+          <mxGeometry x="-350" y="570" width="1710" height="270" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-97" value="5. FSKX File Generation Microservice&amp;nbsp;&lt;div&gt;Web-App&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-9">
           <mxGeometry x="260" y="45" width="250" height="180" as="geometry" />
@@ -119,7 +98,7 @@
           <mxGeometry x="460" y="70" width="190" height="85" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-124" value="10. Docker Image Management MS&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
-          <mxGeometry x="1400" y="660" width="250" height="180" as="geometry" />
+          <mxGeometry x="1400" y="660" width="250" height="210" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-125" value="create dockerfile" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-124">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -133,8 +112,11 @@
         <mxCell id="OQSDLH37VhlCTPeDwJZc-129" value="set image version" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-124">
           <mxGeometry y="120" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-141" value="register image in Database" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-124">
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-141" value="report build success / failure" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-124">
           <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-149" value="register image in Database" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-124">
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-111" value="6. Model Repository Microservices&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
           <mxGeometry x="810" y="805" width="250" height="90" as="geometry" />
@@ -184,13 +166,13 @@
         <mxCell id="OQSDLH37VhlCTPeDwJZc-59" value="analyze code for syntax and FSKX compliance" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-57">
           <mxGeometry y="60" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-60" value="set hardware requirements for FSKX model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-57">
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-60" value="set hardware requirements for FSKX model" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-57">
           <mxGeometry y="90" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-61" value="AI: parameter definition" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-57">
           <mxGeometry y="120" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OQSDLH37VhlCTPeDwJZc-62" value="assign license (container)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-57">
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-62" value="assign license (container)" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-57">
           <mxGeometry y="150" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-27" value="&lt;div&gt;2: Security Microservice&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
@@ -252,6 +234,48 @@
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-56" value="check user quota" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-11">
           <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-87" value="11. Model Execution Microservice&lt;div&gt;Web-App&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
+          <mxGeometry x="1630" y="370" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-88" value="log in" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-104" value="select FSKX model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-96" value="enter user defined parameters" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-94" value="start simulation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-93" value="retrieve results" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
+          <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-103" value="download FSKX model (new parameters)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-87">
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-142" value="10. Docker Image Management MS&lt;div&gt;Web-App&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-117">
+          <mxGeometry x="1240" y="370" width="250" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-143" value="select model" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-144" value="create &amp;amp; edit dockerfile" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-145" value="add / remove image from ECR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-146" value="set image version" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-148" value="set hardware requirements" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
+          <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OQSDLH37VhlCTPeDwJZc-147" value="start building image - receive report (success or failure)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="OQSDLH37VhlCTPeDwJZc-142">
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OQSDLH37VhlCTPeDwJZc-119" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;Keycloak&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#0066CC;" vertex="1" parent="1">
           <mxGeometry x="450" y="130" width="190" height="85" as="geometry" />
